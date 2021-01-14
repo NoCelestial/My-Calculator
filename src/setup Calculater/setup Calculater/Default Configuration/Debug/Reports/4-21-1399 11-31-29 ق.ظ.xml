@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files (x86)\InstallShield\2019\Support\0409\buildreport.xsl"?>
+<BuildReport ProductName="setup Calculater" ProductVersion="1.00.0000" Built="4-21-1399 11-31-29 ق.ظ" Config="Default Configuration" Media="Debug" Uncompressed="0.05 MB">
+  <Features>
+    <Feature Title="##IDS_FEATURE_DISPLAY_NAME1##">setup_Calculater_Files</Feature>
+  </Features>
+  <Components>
+    <Component x64="32">AllOtherFiles</Component>
+    <Component x64="32" KeyPath="calculater.exe">Calculater.exe</Component>
+  </Components>
+  <Prerequisites />
+  <MergeModules />
+  <DynamicLinks />
+  <Files>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]SAH\My Product Name" Component="AllOtherFiles" Modified="7/6/2020 10:26:07 AM" Size="189" Version="">Calculater.exe.config</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]SAH\My Product Name" Component="AllOtherFiles" Modified="7/10/2020 5:36:42 PM" Size="38400" Version="">Calculater.pdb</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]SAH\My Product Name" Component="Calculater.exe" Modified="7/10/2020 5:36:42 PM" Size="17408" Version="1.0.0.0">Calculater.exe</File>
+  </Files>
+</BuildReport>
